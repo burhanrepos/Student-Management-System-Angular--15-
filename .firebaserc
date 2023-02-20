@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "student-mangement-system-48aba": {
+      "hosting": {
+        "angular-crud-firebase": [
+          "student-mangement-system-48aba"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "student-mangement-system-48aba"
+  }
+}
