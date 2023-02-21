@@ -5,6 +5,7 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { RegisterComponent } from './components/register/register.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 import { ForgetPasswordComponent } from './components/forget-password/forget-password.component';
+import { FileuploadComponent } from './components/fileupload/fileupload.component';
 
 const routes: Routes = [
   {
@@ -29,6 +30,10 @@ const routes: Routes = [
   {
     path:'forgot-password',
     component:ForgetPasswordComponent
+  },
+  {
+    path:'file-upload',
+    component:FileuploadComponent
   },
 ];
 

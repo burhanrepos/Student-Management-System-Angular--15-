@@ -16,6 +16,7 @@ import { FIREBASE_OPTIONS } from '@angular/fire/compat';
 import { ForgetPasswordComponent } from './components/forget-password/forget-password.component';
 import { VerifyEmailComponent } from './components/verify-email/verify-email.component';
 import { DataService } from './services/data.service';
+import { FileuploadComponent } from './components/fileupload/fileupload.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { DataService } from './services/data.service';
     RegisterComponent,
     DashboardComponent,
     ForgetPasswordComponent,
-    VerifyEmailComponent
+    VerifyEmailComponent,
+    FileuploadComponent
   ],
   imports: [
     BrowserModule,
